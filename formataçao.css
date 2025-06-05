@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #84e1ee;
+  font-family: 'Open Sans', sans-serif;
+  color: #004d40;
+  line-height: 1.6;
+}
+
+.cabecalho {
+  background-color: #4db6ac;
+  color: #00695c;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.conteudo {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.introducao p,
+.info-extra p {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  color: #00695c;
+}
+
+.imagem-jogadores,
+.imagem-logo {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.imagem-logo {
+  width: 180px;
+}
+
+.lista-times {
+  display: block;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.card-time {
+  background: #84e1ee;
+  padding: 20px;
+  flex: 1 1 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  border: 3px solid #00897b;
+}
+
+.card-time:hover {
+  transform: translateY(-5px);
+}
+
+.lista-titulos {
+   display: block;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.rodape {
+  background: #4db6ac;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+
+.botaolink {
+  background-color: #ffffff;
+  color: #00897b;
+  padding: 10px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #00897b;
+  transition: background 0.3s ease;
+}
+
+.botalink:hover {
+  background-color: #b2dfdb;
+}

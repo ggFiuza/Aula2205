@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #84e1ee;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    background-color: #84e1ee;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 4px solid #00695c;
+}
+
+.logo h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.avatar {
+    width: 200px;
+    border: 6px solid #00c4ff;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(0, 196, 255, 0.5);
+}
+
+.meuslinks {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #368fb2;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.links {
+    margin: 20px 10px;
+    display: inline-block;
+}
+
+.links img {
+    width: 50px;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 0 5px #000);
+}
+
+.links img:hover {
+    transform: scale(1.1);
+}
+
+.botaolink {
+    background-color: #ffffff;
+    color: #00897b;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid #00897b;
+    transition: background 0.3s ease;
+}
+
+.botalink:hover {
+    background-color: #b2dfdb;
+}
+
+footer {
+    background-color: #174d61;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.direitos {
+    font-size: 1rem;
+}
+
+.iftm {
+    width: 160px;
+    margin: auto;
+    display: block;
+}
